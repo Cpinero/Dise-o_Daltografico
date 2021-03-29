@@ -1,0 +1,46 @@
+$(document).ready(function(){
+
+    	$("#boton").click(function(){
+        	$("#imagen").attr("src","../img/Barra-lateral-deuteranopia.png");
+        	$("#imagen2").attr("src","../img/Logo-completo-ProtanopiaDeuteranomia.png");
+        	$("#imagen3").attr("src","../img/Logo-icono-ProtanopiaDeuteranopia.png");
+        	$("#imagen4").attr("src","../img/Borde-inferior-pag-deuteranopia.png");
+            $("#imagen5").attr("src","../img/Material-Postcast-deuteronopia.png");
+            $("#imagen6").attr("src","../img/Material-Postcast-deuteronopia.png");
+        	$(".bg").css("background","#aeb6ce");
+        	$(".titulo").css("background","#aeb6ce");
+        	$(".instagram").css("background","#aeb6ce");
+        	$("#enviar").removeClass("boton");
+        	$("#enviar").addClass("deuteranopia");
+            $(".toggle").css("background","#aeb6ce");
+    	});
+    	$("#boton2").click(function(){
+        	$("#imagen").attr("src","../img/Barra-lateral-Protanopia.png");
+        	$("#imagen2").attr("src","../img/Logo-completo-ProtanopiaDeuteranomia.png");
+        	$("#imagen3").attr("src","../img/Logo-icono-ProtanopiaDeuteranopia.png");
+        	$("#imagen4").attr("src","../img/Borde-inferior-pag-Protanopia.png");
+            $("#imagen5").attr("src","../img/Material-Postcast-protanopia.png");
+            $("#imagen6").attr("src","../img/Material-Postcast-protanopia.png");
+        	$(".bg").css("background","#9fa7c6");
+        	$(".titulo").css("background","#9fa7c6");
+        	$(".instagram").css("background","#9fa7c6");
+        	$("#enviar").removeClass("boton");
+        	$("#enviar").addClass("protanopia");
+            $(".toggle").css("background","#9fa7c6");
+    	});
+        $("#boton3").click(function(){
+            $("#imagen").attr("src","../img/Barra-lateral.png");
+            $("#imagen2").attr("src","../img/Logo-Completo.png");
+            $("#imagen3").attr("src","../img/Logo-icono.png");
+            $("#imagen4").attr("src","../img/Borde-inferior-pag.png");
+            $("#imagen5").attr("src","../img/Material-Postcast.png");
+            $("#imagen6").attr("src","../img/Material-Postcast.png");
+            $(".bg").css("background","#2faec6");
+            $(".titulo").css("background","#2faec6");
+            $(".instagram").css("background","#2faec6");
+            $("#enviar").removeClass("protanopia");
+            $("#enviar").removeClass("deuteranopia");
+            $("#enviar").addClass("boton");
+            $(".toggle").css("background","#2faec6");
+        });
+});
